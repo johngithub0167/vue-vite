@@ -41,7 +41,7 @@ node .\index.js
 ```
 
 
-### 启动~~
+### 再回到根目录启动~~
 
 ```sh
 yarn run dev
