@@ -1,0 +1,37 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "alwaysStrict": true,
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "inlineSourceMap": true,
+    "module": "esnext", // 修改 commonjs -- esnext
+    "newLine": "lf",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "outDir": "dist",
+    "pretty": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "stripInternal": true,
+    "importHelpers": true,
+    "target": "esnext",
+    "types": ["element-plus/global"],
+    "baseUrl": "./",  // 解析非相对模块的基础地址，默认是当前目录
+    "paths": {
+      "@/*": ["src/*"]  // 路径映射，相对于baseUrl
+    }
+  },
+  "exclude": [
+    "public",
+    "dist",
+    "node_modules",
+    "test"
+  ]
+  
+}
