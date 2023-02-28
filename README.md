@@ -33,7 +33,7 @@ yarn
 
 ```sh
 
-## 进入到mock的终端 输入命令启动node服务
+### 进入到mock的终端 输入命令启动node服务
 
 ```sh
 node .\index.js
