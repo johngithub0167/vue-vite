@@ -21,26 +21,32 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## 安装依赖
 
 ```sh
-npm install
+yarn
 ```
-
-### Compile and Hot-Reload for Development
+## 进入到mock的终端 下载依赖
 
 ```sh
-npm run dev
-```
+yarn
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
+## 进入到mock的终端 输入命令启动node服务
 
 ```sh
-npm run lint
+node .\index.js
+
+
+
+### 启动~~
+
+```sh
+yarn run dev
 ```
+
+### 打包
+
+```sh
+yarn run build
+```
+
