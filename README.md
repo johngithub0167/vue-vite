@@ -35,7 +35,7 @@ yarn
 
 ```sh
 node .\index.js
-
+```
 
 
 ### 启动~~
