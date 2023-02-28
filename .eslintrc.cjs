@@ -16,6 +16,7 @@ module.exports = {
     "vue/multi-word-component-names": "off",
     "no-debugger": "off",
     "no-side-effects-in-computed-properties": "off",
-    'vue/comment-directive': 'off'
+    'vue/comment-directive': 'off',
+    "no-undef" : 'off'
   }
 };
