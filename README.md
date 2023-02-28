@@ -28,13 +28,13 @@ node .\index.js
 ```
 
 
-### 再回到根目录启动~~
+## 再回到根目录启动~~
 
 ```sh
 yarn run dev
 ```
 
-### 打包
+## 打包
 
 ```sh
 yarn run build
